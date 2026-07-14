@@ -19,7 +19,7 @@ export default function Sidebar() {
     <aside className="w-56 shrink-0 bg-slate-900 border-r border-slate-700/50 flex flex-col min-h-screen">
       {/* Logo */}
       <div className="px-5 py-5 border-b border-slate-700/50">
-        <div className="text-blue-400 font-bold text-lg tracking-tight">Garmin Stats</div>
+        <div className="text-blue-400 font-bold text-lg tracking-tight">Analizador Deporte</div>
         <div className="text-slate-500 text-xs mt-0.5">
           {activities.length > 0 ? `${activities.length} actividades` : 'Sin datos aún'}
         </div>

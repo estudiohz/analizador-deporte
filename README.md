@@ -1,4 +1,4 @@
-# Garmin Stats
+# Analizador Deporte
 
 Panel personal para ver tus estadísticas de entrenamiento de Garmin Connect: actividades, mapas, zonas de FC, fitness (CTL/ATL/TSB), récords y más.
 
@@ -30,13 +30,13 @@ También necesitas una **cuenta de Garmin Connect** (la misma que usas en la app
 
 ### 1. Descargar el proyecto
 
-Si ya tienes la carpeta `garmin-stats` en tu ordenador, ábrela en la terminal:
+Si ya tienes la carpeta `analizador-deporte` en tu ordenador, ábrela en la terminal:
 
 ```bash
-cd ruta/donde/está/garmin-stats
+cd ruta/donde/está/analizador-deporte
 ```
 
-(Sustituye `ruta/donde/está/garmin-stats` por la ruta real, por ejemplo `/Users/tu-usuario/Documents/garmin-stats`.)
+(Sustituye `ruta/donde/está/analizador-deporte` por la ruta real, por ejemplo `/Users/tu-usuario/Documents/analizador-deporte`.)
 
 ---
 
@@ -73,7 +73,7 @@ cd ..
 
 ### 4. Descargar tus actividades de Garmin
 
-Desde la carpeta raíz del proyecto (`garmin-stats`):
+Desde la carpeta raíz del proyecto (`analizador-deporte`):
 
 ```bash
 python3 fetch/sync.py --limit N
@@ -210,7 +210,7 @@ Cierra otras ventanas de terminal donde tengas `npm run dev` corriendo, o Vite t
 ## Estructura del proyecto (referencia)
 
 ```
-garmin-stats/
+analizador-deporte/
 ├── .env                 ← Tus credenciales (no compartir)
 ├── fetch/
 │   ├── sync.py          ← Script que descarga datos de Garmin
