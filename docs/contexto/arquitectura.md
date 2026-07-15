@@ -1,5 +1,11 @@
 # Arquitectura
 
+## Origen
+Basado en el proyecto original **[RafaTatay/garming-stats](https://github.com/RafaTatay/garming-stats)**
+("No quiero pagar Strava Premium así que me he creado el mío propio"). Nuestro repo
+`estudiohz/analizador-deporte` parte de ese código (primer commit del 2026-06-27) y añade
+renombrado, datos demo y el despliegue Docker/Dokploy.
+
 ## En una frase
 Panel web personal (SPA) que muestra estadísticas de entrenamiento de Garmin Connect
 —actividades, mapas, zonas de FC, fitness CTL/ATL/TSB, récords— leyendo ficheros JSON

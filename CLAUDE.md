@@ -5,6 +5,8 @@ Connect. **Sin backend ni base de datos:** lee ficheros JSON estáticos de `/dat
 generados en local por un pipeline Python (`fetch/`). Desplegado en Dokploy como sitio
 estático (Docker + nginx) en **https://deportes.estudiohorizontal.es**.
 
+Basado en el proyecto original **[RafaTatay/garming-stats](https://github.com/RafaTatay/garming-stats)**.
+
 ## 📚 Contexto del proyecto
 Lee estos documentos antes de trabajar:
 - @docs/contexto/arquitectura.md

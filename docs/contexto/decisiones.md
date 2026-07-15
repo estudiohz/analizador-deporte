@@ -18,6 +18,14 @@ _Inferidas del código y del historial de commits. Sergio debe validarlas._
 - **Estado:** vigente. Para datos reales, montar un volumen en
   `/usr/share/nginx/html/data` (oculta la demo).
 
+## 2026-06-27 · Punto de partida: proyecto RafaTatay/garming-stats
+- **Decisión:** partir del proyecto original
+  [RafaTatay/garming-stats](https://github.com/RafaTatay/garming-stats) en lugar de empezar de cero.
+- **Por qué:** ya resolvía el dashboard de Garmin (React+Vite); se reaprovecha y adapta.
+- **Nota:** en GitHub no consta como fork (repo independiente), pero es el upstream real.
+  Nuestro repo `estudiohz/analizador-deporte` añade renombrado, datos demo y deploy Docker/Dokploy.
+- **Estado:** vigente.
+
 ## 2026-06-27 · Arquitectura sin backend: JSON estáticos + descarga local
 - **Decisión:** la app lee ficheros JSON de `/data/`; la descarga desde Garmin la hace un
   script Python (`fetch/sync.py`) que corre en local y escribe `public/data/`.
